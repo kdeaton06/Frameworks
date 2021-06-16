@@ -1,6 +1,6 @@
 # folders
-target/
-drivers/
+*/target/
+*/drivers/
 
 # Prerequisites
 *.d
