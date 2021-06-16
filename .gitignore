@@ -1,5 +1,6 @@
-# target
+# folders
 target/
+drivers/
 
 # Prerequisites
 *.d
@@ -12,6 +13,7 @@ target/
 *.class
 .project
 .settings
+.metadata
 
 # Precompiled Headers
 *.gch
