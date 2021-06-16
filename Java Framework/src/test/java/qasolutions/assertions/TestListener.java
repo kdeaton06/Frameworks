@@ -3,7 +3,9 @@ package qasolutions.assertions;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.Reporter;
 
+import qasolutions.framework.utilities.Screenshots;
 import qasolutions.tests.BaseTest;
 
 public class TestListener implements ITestListener {
@@ -39,6 +41,8 @@ public class TestListener implements ITestListener {
 	   */
 	@Override
 	public void onTestFailure(ITestResult result) {
+		String fileName = Screenshots.takeScreenshot(BaseTest.driver);
+	    Reporter.log("<a href='" + fileName + "' target='_blank'>FINAL SCREENSHOT</a>");
 		BaseTest.print("");
 		BaseTest.print("============== TEST CASE FAILED " + result.getName() + " ==============");
 	}

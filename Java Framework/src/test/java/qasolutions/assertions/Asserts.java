@@ -32,6 +32,5 @@ public class Asserts extends SoftAssert {
       String fileName = Screenshots.takeScreenshot(BaseTest.driver);
       Reporter.log("Step " + (assertMessages.size()+1) + ": FAILED - <a href='" + fileName + "' target='_blank'>" + error.getMessage()+"</a>");
       System.out.println("Step " + (assertMessages.size()+1) +": FAILED - " +  error.getMessage());
-      
     }
 }

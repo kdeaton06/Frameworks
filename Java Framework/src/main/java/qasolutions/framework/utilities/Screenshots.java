@@ -31,6 +31,6 @@ public class Screenshots {
 	}
 	
 	private static String getFilePath() {
-		return "/target/Screenshots/screenshot_" + getTimestamp() + ".png";
+		return "C:/Users/kdeat/Projects/Frameworks/Java Framework/target/Screenshots/screenshot_" + getTimestamp() + ".png";
 	}
 }
