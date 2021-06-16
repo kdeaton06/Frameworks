@@ -19,7 +19,6 @@ public abstract class BaseTest {
 	public static WebDriver driver;
 	protected Asserts asserts;
 	
-	
 	@BeforeClass
 	protected void instantiateDriver() {
 		driverManager = DriverManagerFactory.getDriverManager();

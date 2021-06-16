@@ -10,7 +10,6 @@ public class AccountsOverviewPage extends BasePage {
 	public AccountsOverviewPage(WebDriver driver) {
 		super(driver);
 		PageFactory.initElements(driver, this);
-		
 	}
 	
 	@FindBy(xpath = "//h1[text()='Accounts Overview']")
