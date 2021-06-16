@@ -11,9 +11,10 @@
 *.o
 *.obj
 *.class
-.project
-.settings
-.metadata
+*.classpath
+*.project
+*.settings
+*.metadata
 
 # Precompiled Headers
 *.gch
