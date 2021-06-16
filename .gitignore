@@ -1,3 +1,6 @@
+# target
+target/
+
 # Prerequisites
 *.d
 
@@ -6,6 +9,9 @@
 *.lo
 *.o
 *.obj
+*.class
+.project
+.settings
 
 # Precompiled Headers
 *.gch
